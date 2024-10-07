@@ -1,4 +1,3 @@
-<body>
 
     <div class="site-wrap">
   
@@ -432,4 +431,4 @@
   
     <script src="js/main.js"></script>
   
-  </body>
+ 

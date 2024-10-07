@@ -12,10 +12,10 @@
             <div class="ml-auto">
               <nav class="site-navigation position-relative text-right" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="matches.html" class="nav-link">Matches</a></li>
+                  <li class="active"><a href="index.php" class="nav-link">Home</a></li>
+                  <li><a href="partidos.php" class="nav-link">Matches</a></li>
                   <li><a href="players.html" class="nav-link">Players</a></li>
-                  <li><a href="blog.html" class="nav-link">Blog</a></li>
+                  <li><a href="blog.php" class="nav-link">Blog</a></li>
                   <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
               </nav>

@@ -28,4 +28,15 @@
   <link rel="stylesheet" href="css/style.css">
 
 </head>
+<body>
 
+<?php require_once "views/navbar.php"; ?>
+<?php
+ 
+  $section = (isset($section)) ? $section : 'home';
+   require_once $section;  ?>
+  <?php require_once "views/footer.php"; ?>
+
+
+</body>
+</html>
