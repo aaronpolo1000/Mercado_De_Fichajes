@@ -15,8 +15,10 @@
                   <li class="active"><a href="index.php" class="nav-link">Home</a></li>
                   <li><a href="partidos.php" class="nav-link">Matches</a></li>
                   <li><a href="jugadores.php" class="nav-link">Players</a></li>
+				  <li><a href="agregar_jugador.php" class="nav-link">Agregar jugador</a></li>
                   <li><a href="blog.php" class="nav-link">Blog</a></li>
                   <li><a href="contact.html" class="nav-link">Contact</a></li>
+				  
                 </ul>
               </nav>
   
