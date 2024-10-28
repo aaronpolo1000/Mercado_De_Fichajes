@@ -12,9 +12,9 @@ public class Jugador {
     private String posicion;
     private int edad;
     private String nacionalidad;
-    private double valorMercado;
-    private int contratoHasta;
-    private int clubId;
+    private double valor_mercado;
+    private int contrato_hasta;
+    private int club_id;
 	public Long getId() {
 		return id;
 	}
@@ -46,22 +46,22 @@ public class Jugador {
 		this.nacionalidad = nacionalidad;
 	}
 	public double getValorMercado() {
-		return valorMercado;
+		return valor_mercado;
 	}
 	public void setValorMercado(double valorMercado) {
-		this.valorMercado = valorMercado;
+		this.valor_mercado = valorMercado;
 	}
 	public int getContratoHasta() {
-		return contratoHasta;
+		return contrato_hasta;
 	}
 	public void setContratoHasta(int contratoHasta) {
-		this.contratoHasta = contratoHasta;
+		this.contrato_hasta = contratoHasta;
 	}
 	public int getClubId() {
-		return clubId;
+		return club_id;
 	}
 	public void setClubId(int clubId) {
-		this.clubId = clubId;
+		this.club_id = clubId;
 	}
     
 

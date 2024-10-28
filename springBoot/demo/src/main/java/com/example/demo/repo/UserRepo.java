@@ -6,5 +6,8 @@ import com.example.demo.model.Jugador;
 import java.util.List;
 
 public interface UserRepo extends JpaRepository<Jugador, Long> {
-    List<Jugador> findByNombre(String nombre);
+    List<Jugador> findByNombreContaining(String nombre);
+
+
+
 }

@@ -7,6 +7,7 @@ import com.example.demo.model.*;
 import com.example.demo.repo.UserRepo;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/users")
@@ -20,6 +21,14 @@ public class UserController {
     @GetMapping("/{nombre}")
     public Jugador buscarPorNombre(@PathVariable String nombre) {
         return userService.buscarPorNombre(nombre);
+    }
+    @PutMapping("/{id}")
+    public void actualizarJugador(@PathVariable Long id, @RequestBody Jugador jugadorActualizado) {
+        userService.actualizarJugador(id, jugadorActualizado);
+    }
+    @DeleteMapping("/{id}")
+    public void eliminarJugador(@PathVariable Long id) {
+        userService.eliminarJugador(id);
     }
     @PostMapping
     public ResponseEntity<String> crearUsuario(

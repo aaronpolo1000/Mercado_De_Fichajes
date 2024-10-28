@@ -17,8 +17,8 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-5 ml-auto">
-              <h1 class="text-white">World Cup Event</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, molestias repudiandae pariatur.</p>
+              <h1 class="text-white">Bienvenido Manager de Boca juniors</h1>
+              <p>Mira lo mas reciente, compra y vende jugadores.</p>
               <div id="date-countdown"></div>
            
             </div>
